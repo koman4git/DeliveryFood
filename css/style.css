@@ -148,14 +148,16 @@ body{
   padding-bottom: 50px;
   display: flex;
   justify-content: space-between;
+  margin: -20px;
 }
 .card{
+  flex: 50%;
+  margin: 20px;
   border-radius: 20px;
   overflow: hidden;
   position: relative;
   padding: 32px;
   max-width: 570px;
-  width: 100%;
   min-height: 380px;
   display: flex;
   flex-direction: column;
@@ -211,4 +213,220 @@ body{
   height: 100%;
   z-index: -2;
   object-fit: cover;
+}
+/* блок доставка еды на неделю */
+.section-title{
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 23px;
+  margin-top: 0;
+  margin-bottom: 47px;
+}
+.delivery-week{
+ padding: 100px 0; 
+}
+.delivery-cards{
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+.delivery-card{
+  margin: 15px;
+  width: 275px;
+  height: 182px;
+  border-radius: 18px;
+  overflow: hidden;
+  position: relative;
+}
+.delivery-image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.delivery-tag{
+  position: absolute;
+  left: 10px;
+  top: 16px;
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  padding: 5px 10px;
+}
+.tag-health{
+  background: #D0FD89;
+}
+.tag-vegetables{
+  background: #AEBC41;
+}
+.tag-meat{
+  background: #B86B78;
+}
+.tag-birds{
+  background: #D68334;
+}
+.tag-fish{
+  background: #CD6255;
+}
+.tag-baby{
+  background: #FFFDBF;
+}
+.tag-parents{
+  background: #F6FDC8;
+}
+.tag-festive{
+  background: #FEF7FE;
+}
+/* блок категории блюд */
+.section-gray{
+  background: #F6F6F6;
+}
+.category{
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+.tabs{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 62px;
+}
+.tabs-link{
+  font-size: 20px;
+  line-height: 23px;
+  text-decoration: none;
+  color: #49494F;
+  margin-right: 58px;
+}
+.active{
+  color: #F37321;
+}
+.tabs-content{
+  display: flex;
+  margin: -15px;
+}
+.tabs-card{
+  max-width: 270px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #fff;
+  margin: 15px;
+}
+.tabs-image{
+  max-width: 100%;
+}
+.tabs-card-content{
+  padding: 23px;
+}
+.tabs-title{
+  margin-top: 0;
+  margin-bottom: 13px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+}
+.tabs-description{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  color: #B9B9BE;
+}
+.tabs-price{
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 23px;
+  color: #4B4B51;
+  display: block;
+  margin-bottom: 5px;
+}
+.tabs-weight{
+  font-size: 17px;
+  line-height: 20px;
+  color: #AAAAB1;
+}
+.tabs-info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.button-outline{
+  cursor: pointer;
+  padding: 15px 25px;
+  background-color: transparent;
+  border: 2px solid #F37321;
+  box-sizing: border-box;
+  border-radius: 33px;
+  color: #F37321;
+}
+.button-center{
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+  width: 315px;
+}
+/* our advantages */
+.section-white{
+  padding-top: 100px;
+  padding-bottom: 202px;
+}
+.advantages-cards{
+  display: flex;
+  justify-content: space-between;
+}
+.advantages-card{
+  padding: 30px 23px 25px 24px;
+  max-width: 270px;
+  min-height: 296px;
+  background: #FFFFFF;
+  border: 1px solid #E9E9E9;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+  text-align: center;
+}
+.advantages-image{
+  width: 100%;;
+}
+.advantages-title{
+  margin-top: 34px;
+  margin-bottom: 13px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  color: #000000;
+}
+.advantages-description{
+  font-size: 14px;
+  line-height: 22px;
+  color: #49494F;
+}
+/* footer */
+.footer{
+  padding: 40px 0;
+  background: #F6F6F6;
+}
+.footer-wrapper{
+  display: flex;
+  align-items: center;
+}
+.footer-logo{
+  margin-right: 50px;
+}
+.footer-link{
+  font-size: 16px;
+  line-height: 23px;
+  text-decoration-line: underline;
+  color: #000000;
+  margin-right: 50px;
+}
+.social-links{
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.social-link{
+  margin-left: 20px;
+  text-decoration: none;
 }
